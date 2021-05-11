@@ -17,11 +17,14 @@ function App() {
 					'/allow_notification',
 				]}
 			>
+				
 				<PlanLayout>
-					<Route exact path='/' component={Welcome} />
-					<Route exact path='/invite' component={PhoneConfirmation} />
-					<Route exact path='/code_confirm' component={CodeConfirmation} />
-					<Route exact path='/allow_notification' component={AllowNotification} />
+					<Switch>
+						<Route exact path='/' component={Welcome} />
+						<Route exact path='/invite' component={PhoneConfirmation} />
+						<Route exact path='/code_confirm' component={CodeConfirmation} />
+						<Route exact path='/allow_notification' component={AllowNotification} />
+					</Switch>
 				</PlanLayout>
 			</Route>
 		</Router>

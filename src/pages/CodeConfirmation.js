@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function CodeConfirmation() {
 	return (
 		<div className={style.PhoneConfirmationContainer}>
-			<Link exact to="/get_username" className={style.backBtn}>
+			<Link exact to="/invite" className={style.backBtn}>
 				<img src="/images/arrow.png" alt="backBtn" />
 			</Link>
 			<div className="text-center my-2">
@@ -15,7 +15,7 @@ export default function CodeConfirmation() {
 			</div>
 			<Link exact to="/allow_notification" className="primaryBtn d-flex align-items-center">
 				Next 
-				<img src="/images/nextArrowIcon.svg" className="ml-1" alt="nextArrowIcon" />
+				<img src="/images/nextArrowIcon.svg" className={style.nextArrowIcon} alt="nextArrowIcon" />
 			</Link>
 		</div>
 	);

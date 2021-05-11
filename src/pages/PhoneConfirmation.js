@@ -19,7 +19,7 @@ export default function PhoneConfirmation() {
 			</p>
 			<Link exact to="/code_confirm" className="primaryBtn d-flex align-items-center">
 				Next 
-				<img src="/images/nextArrowIcon.svg" className="ml-1" alt="nextArrowIcon" />
+				<img src="/images/nextArrowIcon.svg" className={style.nextArrowIcon} alt="nextArrowIcon" />
 			</Link>
 		</div>
 	);

@@ -84,6 +84,10 @@
 	border-right: 1px solid #cccccc;
 }
 
+.nextArrowIcon {
+	margin-left: 10px;
+}
+
 .notificationContainer .hand_icon {
 	position: absolute;
 	bottom: -90px;
