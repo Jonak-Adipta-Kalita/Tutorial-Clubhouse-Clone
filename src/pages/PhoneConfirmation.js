@@ -22,5 +22,5 @@ export default function PhoneConfirmation() {
 				<img src="/images/nextArrowIcon.svg" className="ml-1" alt="nextArrowIcon" />
 			</Link>
 		</div>
-	)
+	);
 };

@@ -39,3 +39,7 @@ a {
 	font-style: normal;
 	text-align: center;
 }
+
+a:hover {
+	text-decoration: none !important;
+}

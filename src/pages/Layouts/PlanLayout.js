@@ -5,7 +5,7 @@ function PlanLayout({ children }) {
 		<div style={{ width: "100%", maxwidth: "500px", margin: "auto" }}>
 			{children}
 		</div>
-	)
+	);
 };
 
 export default PlanLayout;
