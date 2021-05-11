@@ -3,7 +3,9 @@ import Welcome from './pages/Welcome';
 import PhoneConfirmation from './pages/PhoneConfirmation';
 import CodeConfirmation from './pages/CodeConfirmation';
 import AllowNotification from './pages/AllowNotification';
+import Home from './pages/Home';
 import PlanLayout from './pages/Layouts/PlanLayout';
+import AppLayout from './pages/Layouts/AppLayout';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -26,6 +28,13 @@ function App() {
 						<Route exact path='/allow_notification' component={AllowNotification} />
 					</Switch>
 				</PlanLayout>
+			</Route>
+			<Route exact path={['/home']}>
+				<AppLayout>
+					<Switch>
+						<Route exact path='/home' component={() => <Home />} />
+					</Switch>
+				</AppLayout>
 			</Route>
 		</Router>
 	);
