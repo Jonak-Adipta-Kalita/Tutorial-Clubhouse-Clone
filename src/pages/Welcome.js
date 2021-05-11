@@ -24,7 +24,7 @@ export default function Welcome() {
 				<Link exact to="/get_username" className="primaryBtn d-flex align-items-center mb-3">
 					Get your Username {" "}
 				</Link>
-				<Link className="">
+				<Link exact to="/invite" className="">
 					Have an invite text? Sign In!!
 				</Link>
 			</div>

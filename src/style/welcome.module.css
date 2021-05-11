@@ -37,10 +37,6 @@
 	justify-content: center;
 }
 
-.actionBtn a {
-	text-decoration: none;
-}
-
 .actionBtn > a:last-child {
 	color: var(--btnBgColor);
 	font-size: 0.875em;
