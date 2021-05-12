@@ -2,7 +2,7 @@ import React from 'react';
 
 function PlanLayout({ children }) {
 	return (
-		<div style={{ width: "100%", maxwidth: "500px", margin: "auto" }}>
+		<div className="plan_layout">
 			{children}
 		</div>
 	);

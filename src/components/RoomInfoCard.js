@@ -4,9 +4,6 @@ import data from '../data/roomCard.json';
 import { BsChatDots, BsChatDotsFill, BsFillPersonFill } from 'react-icons/bs';
 
 export default function RoomInfoCard() {
-	useEffect(() => {
-		
-	}, []);
 	return (
 		<>
 			{data.map((item) => (
