@@ -4,6 +4,16 @@ import data from '../data/dailyCard.json';
 
 export default function dailyInfoCard() {
 	return (
-		<div></div>
+		<div className={style.dailyCard}>
+			{data.map((item) => (
+				<div>
+					<span className="">{item.time}</span>
+					<div>
+						<span className="">{item.title}</span>
+						<p>{item.description}</p>
+					</div>
+				</div>
+			))}
+		</div>
 	);
 };
