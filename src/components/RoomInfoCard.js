@@ -24,13 +24,13 @@ export default function RoomInfoCard() {
 										</p>
 									))}
 									<p className="d-flex align-items-center">
-										<span className="mr-2">1.8</span>
+										<span className="mr-2">{item.total_members || 0}</span>
 										<div className={style.giveSpace} />
 										<BsFillPersonFill />
 										
 										<span className="mx-2"></span>{"  "}
 										
-										<span className="mr-2">{item.total_members || 0}</span>
+										<span className="mr-2">{item.total_chat || 0}</span>
 										<div className={style.giveSpace} />
 										<BsChatDotsFill />
 									</p>
