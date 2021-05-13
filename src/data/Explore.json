@@ -1,16 +1,19 @@
 {
   "people": [
     {
-      "title": "April Underwood",
-      "description": " CEO and Founder, local Laboratory. Co-fonder #ANajkaslkdasld"
+      "title": "PolyMars",
+      "description": "Game Developer, C# Lover, Student",
+	  "user_image": "https://avatars.githubusercontent.com/u/51007356?v=4"
     },
     {
-      "title": "Helena Price Hambrecht",
-      "description": "Founder @drinkaus / Twitter @helena"
+      "title": "Clément Mihailescu",
+      "description": "Co-Founder & CEO, AlgoExpert | Ex-Google & Ex-Facebook Software Engineer",
+	  "user_image": "https://avatars.githubusercontent.com/u/20826081?v=4"
     },
     {
-      "title": "James Cham",
-      "description": "@jamescham"
+      "title": "Florin Pop",
+      "description": "JavaScript enthusiast 🙌, Front-end developer 💻 & Blogger 😍 at https://florin-pop.com",
+	  "user_image": "https://avatars.githubusercontent.com/u/6692364?v=4"
     }
   ],
   "conversation": [
