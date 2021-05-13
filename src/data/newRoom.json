@@ -1,16 +1,30 @@
 {
   "members": [
     {
-      "first_name": "Sriram",
-      "last_name": "krishnan"
+      "first_name": "Nazariy",
+      "last_name": "Dumanskyy",
+	  "user_image": "https://avatars.githubusercontent.com/u/6589966?s=100&v=4"
     },
 	{
       "first_name": "Jonak",
-      "last_name": "Adipta Kalita"
+      "last_name": "Adipta Kalita",
+	  "user_image": "https://avatars.githubusercontent.com/u/70377522?v=4"
     },
 	{
       "first_name": "Rafeh",
-      "last_name": "Qazi"
+      "last_name": "Qazi",
+	  "user_image": "https://avatars.githubusercontent.com/u/8461930?s=100&v=4"
+    }
+	,
+	{
+      "first_name": "Ben",
+      "last_name": "Awad",
+	  "user_image": "https://avatars.githubusercontent.com/u/7872329?s=100&v=4"
+    },
+	{
+      "first_name": "David",
+      "last_name": "Rakosi",
+	  "user_image": "https://avatars.githubusercontent.com/u/61084415?s=100&v=4"
     }
   ]
 }

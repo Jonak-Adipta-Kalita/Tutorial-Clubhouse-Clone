@@ -3,6 +3,7 @@
     "id": 1,
     "title": "GOOD TIME",
     "sub_title": "Calvin Harris x Email Nava on GOOD Time Show",
+	"total_members": 3,
     "members": [
       {
         "first_name": "Sriram",
@@ -15,10 +16,6 @@
       {
         "first_name": "Steven",
         "last_name": "Sinofsky"
-      },
-      {
-        "first_name": "Paul",
-        "last_name": "Davison"
       }
     ]
   },
@@ -26,6 +23,7 @@
     "id": 2,
     "title": "FREAKING TIME",
     "sub_title": "Calvin Harris x Email Nava on FREAKING Time Show",
+	"total_members": 4,
     "members": [
       {
         "first_name": "Sriram",
@@ -49,6 +47,7 @@
     "id": 3,
     "title": "AWESOME TIME",
     "sub_title": "Calvin Harris x Email Nava on AWESOME Time Show",
+	"total_members": 5,
     "members": [
       {
         "first_name": "Sriram",
@@ -65,7 +64,11 @@
       {
         "first_name": "Paul",
         "last_name": "Davison"
-      }
+      },
+	  {
+		  "first_name": "Jonak",
+		  "last_name": "Adipta Kalita"
+	  }
     ]
   }
 ]

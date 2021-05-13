@@ -5,7 +5,7 @@ import { BsMicMuteFill } from 'react-icons/bs';
 import { MdAccountCircle } from 'react-icons/md';
 
 export default function NewRoom(props) {
-	const [micMuteVisible, setMicMuteVisible] = useState(false);
+	const [micMuteVisible, setMicMuteVisible] = useState(true);
 	const card = props.cardDetail;
 	return (
 		<>
@@ -13,7 +13,7 @@ export default function NewRoom(props) {
 				<div className={style.head}>
 					<div className={"d-flex align-items-center"}>
 						<a 
-							href="#" 
+							href="/home" 
 							onClick={() => {
 								props.setSheetVisible(false);
 							}}
@@ -41,7 +41,7 @@ export default function NewRoom(props) {
 								) : (
 									""
 								)}
-								<img src={item.image || "images/user-img-blank.jpg"} alt="user logo" />
+								<img src={item.user_image || "images/user-img-blank.jpg"} alt="user logo" />
 								<p>
 									<span>*</span>
 									{item.first_name}

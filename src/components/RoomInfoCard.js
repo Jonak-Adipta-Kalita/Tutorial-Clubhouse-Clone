@@ -30,7 +30,7 @@ export default function RoomInfoCard() {
 										
 										<span className="mx-2"></span>{"  "}
 										
-										<span className="mr-2">5</span>
+										<span className="mr-2">{item.total_members || 0}</span>
 										<div className={style.giveSpace} />
 										<BsChatDotsFill />
 									</p>

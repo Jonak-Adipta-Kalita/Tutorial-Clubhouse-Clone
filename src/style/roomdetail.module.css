@@ -36,14 +36,64 @@
 .roomDetailCard {
 	background-color: #ffffff;
 	padding: 1em 1em 3em 1em;
+	border-radius: 1.5em 1.5em 0 0;
+	height: 90vh;
+	overflow: auto;
+}
+
+.roomDetailCard h6 {
+	font-size: 0.675em;
+	color: var(--textColor);
+	font-weight: 500;
+	margin-bottom: 0.3em;
 }
 
 .roomDetailCard img {
 	width: 70px;
-	border-radius: 1.5em 1.5em 0 0;
+	border-radius: 1.7em;
 }
 
-.roomDetailCard .emptyUserAvatar {
+.memberContainer {
+	text-align: center;
 	width: 70px;
-	border-radius: 1.5em 1.5em 0 0;
+	position: relative;
+}
+
+.memberContainer .audioIcon {
+	position: absolute;
+	right: -5px;
+	bottom: 36px;
+	z-index: 5;
+	background-color: #ffffff;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 0px 3px #cccccc;
+}
+
+.memberContainer .audioIcon svg {
+	color: #28ae61;
+}
+
+.memberContainer p {
+	display: flex;
+	align-items: center;
+	font-size: 1em;
+	font-weight: 500;
+	color: #000000;
+}
+
+.memberContainer span {
+	font-size: 2.5em;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: #28ae61;
+	color: #ffffff;
+	margin-right: 0.1em;
+	line-height: 0.8;
 }
