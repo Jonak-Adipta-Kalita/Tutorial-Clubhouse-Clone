@@ -5,6 +5,7 @@ import CodeConfirmation from './pages/CodeConfirmation';
 import AllowNotification from './pages/AllowNotification';
 import Home from './pages/Home';
 import Explore from './pages/Explore';
+import Profile from './pages/Profile';
 import PlanLayout from './pages/Layouts/PlanLayout';
 import AppLayout from './pages/Layouts/AppLayout';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -33,11 +34,13 @@ function App() {
 			<Route exact path={[
 				'/home',
 				'/explore',
+				'/profile',
 			]}>
 				<AppLayout>
 					<Switch>
 						<Route exact path='/home' component={Home} />
 						<Route exact path='/explore' component={Explore} />
+						<Route exact path='/profile' component={Profile} />
 					</Switch>
 				</AppLayout>
 			</Route>
